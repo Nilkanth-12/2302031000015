@@ -7,16 +7,74 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+    .contex1{
+        background-image: url(./imgs/image\ 1.png );
+        background-position-x: center;
+        height: 642px;
+        padding-top: 10px;
+        
+        
+        opacity: 1;
+
+        width: 100%;
+        /* background-image: url(./image\ 1.png); */
+
+        
+    }
+    .contex1 h{
+        color: white;
+        /* text-align: center; */
+        /* display: flex; */
+        /* margin: 0 auto; */
+        margin-left: 500px;
+        font-size: 70px;
+        font-family:Arial, Helvetica, sans-serif ;
+        
+    }
+    form{
+        color: white;
+        margin-left: 80px;
+        margin-top: 50px;
+        font-family:Arial, Helvetica, sans-serif ;
+        
+    }
+ label{
+    font-size: 35px;
+ }
+ .sub{
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: white;
+    /* color: black; */
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 60px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+
+ }
+.sub a{
+    text-decoration: none;
+    color: black;
+}
+
+</style>
 
 
 <body>
+
+    
     <div class="main">
 
         <div class="navbar">
 
             <nav>
                 <div class="dum">
-                    <a href=""><img src="./imgs/Dumbbell.png" alt=""><div class="name">CustomFit</div></a>
+                    <a href="./index.html"><img src="./imgs/Dumbbell.pngl.png" alt=""><div class="name">CustomFit</div></a>
                     
                 </div>
 
@@ -38,20 +96,56 @@
         </div>
 
 
-       
-                <div class="text">
-                    <p>Personalized Workouts for Your Unique Goals.</p>
-                    
-                    <p>"Welcome to CustomFit, where your fitness goals become a reality. Our customized workout plans are designed to fit your lifestyle, whether you're just starting out or pushing for new personal bests. Start your journey today and see the results you’ve always wanted."</p>
-            
-                    <div class="btn2"><a href="./plan.html">START NOW</a></div>
+        <div class="contex1">
 
-                    </div>
-          
-        
+        <h>Build Custom Plan</h>
 
-         
-        
+        <div>
+
+            <form action="Post">
+
+             
+                <label for="fname" > Name</label>
+
+                <input type="text" name="" id="fname" style="width: 500px; height: 35px; border-radius: 30px; margin-left: 30px;" >
+
+                <label for="lname" style="margin-left: 130px;">Fat%</label>
+                <input type="text" name="" id="lname"  style="width: 500px; height: 35px; border-radius: 30px; margin-left: 20px;">
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <label for="fname" > Age</label>
+
+                <input type="text" name="" id="fname" style="width: 500px; height: 35px; border-radius: 30px; margin-left: 53px;" >
+
+                <label for="lname" style="margin-left: 130px;">Goal</label>
+                <input type="text" name="" id="lname"  style="width: 500px; height: 35px; border-radius: 30px; margin-left: 30px;">
+                <br>
+                <br>
+                <br><br>
+
+                <label for="fname" > Weight</label>
+
+                <input type="text" name="" id="fname" style="width: 500px; height: 35px; border-radius: 30px; margin-left: 10px;" >
+
+                <label for="lname" style="margin-left: 90px;">TimeLine</label>
+                <input type="text" name="" id="lname"  style="width: 500px; height: 35px; border-radius: 30px; margin-left: 3px;">
+                <br>
+                <br>
+
+            </form>
+
+            <div class="sub">
+                <a href="">
+                    SUBMIT
+                </a>
+            </div>
+        </div>
+
+
+        </div>
 
 
 
